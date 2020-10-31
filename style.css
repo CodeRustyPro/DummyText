@@ -1,0 +1,54 @@
+body{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	background: url(bg.jpg)
+}
+
+.lol{
+	display: none;
+}
+@media(max-width: 584px){
+	.lol{
+		display: flex;
+		height: 100vh;
+	}
+}
+nav{
+  display: flex;
+  height: 60px; 
+  width: 100%;
+  background-image: radial-gradient(circle at 59% 30%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 10%,transparent 3%, transparent 100%),radial-gradient(circle at 78% 41%, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01) 3%,transparent 3%, transparent 100%),radial-gradient(circle at 15% 80%, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0.02) 3%,transparent 3%, transparent 100%),radial-gradient(circle at 45% 43%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 3%,transparent 3%, transparent 100%),radial-gradient(circle at 63% 9%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 71% 80%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 19% 0%, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 62% 12%, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 46% 76%, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0.02) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 59% 41%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 4% 53%, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 16% 40%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 94% 48%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 47% 6%, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0.02) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 64% 65%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 58% 40%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 37% 3%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 42% 50%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 21% 78%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 5%,transparent 5%, transparent 100%),linear-gradient(135deg, hsla(233,81%,39%,1),hsla(218,81%,39%,1));
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px 0 1px;
+  flex-wrap: wrap;
+  border-radius: 0px;
+  border-radius: 1px;
+}
+nav .logo{
+  font-size: 35px;
+  font-weight: 600;
+  color: white;
+}
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+nav ul li a{
+
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding: 2px 15px;
+  border-radius: 3px;
+  letter-spacing: 0px;
+  transition: all 0.3s ease;
+  color: white;
+}
+#particles-js{
+	height: 100vh;
+	background-color:red;
+}
